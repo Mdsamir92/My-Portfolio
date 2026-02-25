@@ -18,7 +18,7 @@ const education = [
     title: "Madhyamik Education (10th Grade) (WBBSE)  ",
     year: "2016",
     description:
-      "Focused on React, modern UI architecture, and scalable frontend systems.",
+      "Modern Arya Parishad, Kolkata",
   },
 ];
 
