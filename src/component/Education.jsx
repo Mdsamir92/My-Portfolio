@@ -35,7 +35,7 @@ const skillCategories = [
       { name: "Tailwind CSS", level: 5 },
       { name: "Bootstrap", level: 4 },
       { name: "Shadcn", level: 4 },
-      { name: "Material UI", level: 3 },
+        { name: "Material UI", level: 3.5 },
     ],
   },
   {
