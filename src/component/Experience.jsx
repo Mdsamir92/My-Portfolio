@@ -26,7 +26,7 @@ const experiences = [
   },
 
   {
-    year: "2023 - 2024",
+    year: "March 2023 - April 2024",
     role: "Freelance Full Stack Developer",
     company: "Independent / Remote",
     type: "Contract",
