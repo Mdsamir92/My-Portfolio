@@ -24,7 +24,7 @@ pt-24 overflow-hidden text-white"
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-gold-gradient animated-gradient-subtitle text-2xl md:text-4xl font-semibold mb-4 font-quicksand">
+            <p className="text-white animated-gradient-subtitle text-2xl md:text-4xl font-semibold mb-4 font-quicksand">
               Full Stack Developer
             </p>
 
