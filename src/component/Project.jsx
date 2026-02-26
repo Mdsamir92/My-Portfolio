@@ -67,13 +67,13 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative mt-12 py-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-300 overflow-hidden"
+      className="relative py-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-300 overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute w-96 h-96 bg-purple-500 rounded-full blur-3xl opacity-20 top-10 left-10"></div>
       <div className="absolute w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20 bottom-10 right-10"></div>
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative  mt-12 max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold font-serif text-center text-white mb-16">
           My Projects
         </h2>
