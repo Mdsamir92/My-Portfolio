@@ -3,25 +3,24 @@ import { Circle } from "lucide-react";
 
 const education = [
   {
-    title: "Computer Science Engineering (B.Tech)",
-    year: "2018-2022",
+    title:
+      "Bachelor of Technology (B.Tech) in Computer Science Engineering",
+    year: "2018 – 2022",
     description:
       "Pailan College of Management & Technology (MAKAUT), Kolkata",
   },
   {
-    title: "Higher Secondary Education (12th Grade) (WBCHSE)",
+    title: "Higher Secondary (WBCHSE)",
     year: "2018",
     description:
-      "Lajpat High School, Kolkata, Mathematics, Physics, Chemistry",
+      "Lajpat High School, Kolkata | Stream: Mathematics, Physics, Chemistry",
   },
   {
-    title: "Madhyamik Education (10th Grade) (WBBSE)  ",
+    title: "Secondary Education (WBBSE)",
     year: "2016",
-    description:
-      "Modern Arya Parishad, Kolkata",
+    description: "Modern Arya Parishad, Kolkata",
   },
 ];
-
 const skillCategories = [
   {
     category: "Frontend",
