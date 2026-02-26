@@ -62,12 +62,12 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-6 py-12 mt-12 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-6 py-12  overflow-hidden">
       {/* Background Glow */}
       <div className="absolute w-96 h-96 bg-purple-500 rounded-full blur-3xl opacity-20 top-10 left-10"></div>
       <div className="absolute w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20 bottom-10 right-10"></div>
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative mt-12 max-w-7xl mx-auto px-6">
         {/* Title */}
         <div className="flex justify-between items-center mb-16">
           <h2 className="md:text-4xl text-3xl font-serif font-extrabold tracking-tight text-white">
