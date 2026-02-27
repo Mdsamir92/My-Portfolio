@@ -13,7 +13,7 @@ const education = [
     title: "Higher Secondary (WBCHSE)",
     year: "2018",
     description:
-      "Lajpat High School, Kolkata | Stream: Mathematics, Physics, Chemistry",
+      "Lajpat High School, Kolkata | Stream: Physics, Chemistry, Mathematics",
   },
   {
     title: "Secondary Education (WBBSE)",
