@@ -43,37 +43,31 @@ const data = [
     live: "https://todo-f45f0.web.app/",
     github: "https://github.com/Mdsamir92/Todo-firebase",
   },
-  // {
-  //   id: 5,
-  //   title: "Unsplash Gallery",
-  //   image: "/projects/samGallery.png",
-  //   description: "Search Unsplash Wallpaper built with React and Tailwind.",
-  //   live: "https://sam-wllpaper.vercel.app/",
-  //   github: "https://github.com/Mdsamir92/Unsplash-wllpaper",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Unsplash Gallery",
-  //   image: "/projects/samGallery.png",
-  //   description: "Search Unsplash Wallpaper built with React and Tailwind.",
-  //   live: "https://sam-wllpaper.vercel.app/",
-  //   github: "https://github.com/Mdsamir92/Unsplash-wllpaper",
-  // },
+  {
+    id: 5,
+    title: "Aadrila Technology",
+    image: "/projects/sam-tech.png",
+    description:
+      "Converted a Figma design into a fully responsive React.js application using Tailwind CSS. Implemented pixel-perfect UI, reusable components, and clean, scalable frontend architecture.",
+    live: "https://sam-tech-sigma.vercel.app/",
+    github: "https://github.com/Mdsamir92/Aadrila-tech",
+  },
 ];
 
 export default function Projects() {
+
   const swiperRef = useRef(null);
 
   return (
     <section
       id="projects"
-      className="relative py-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-300 overflow-hidden"
+      className="relative  py-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-300 overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute w-96 h-96 bg-purple-500 rounded-full blur-3xl opacity-20 top-10 left-10"></div>
       <div className="absolute w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20 bottom-10 right-10"></div>
 
-      <div className="relative  mt-12 max-w-7xl mx-auto px-6">
+      <div className="relative mt-12 max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold font-serif text-center text-white mb-16">
           My Projects
         </h2>
