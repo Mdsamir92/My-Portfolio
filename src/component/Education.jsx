@@ -30,6 +30,9 @@ const skillCategories = [
       { name: "Typescript", level: 4.5 },
       { name: "React", level: 5 },
       { name: "Next.js", level: 4.5 },
+      { name: "React Native(Expo)", level: 3.5 },
+      { name: "Redux", level: 4 },
+      { name: "Zustand", level: 4.5 },
       { name: "Tailwind CSS", level: 5 },
       { name: "Bootstrap", level: 4 },
       { name: "Shadcn", level: 4 },
@@ -53,7 +56,7 @@ const skillCategories = [
       { name: "VS Code", level: 5 },
       { name: "Figma", level: 4 },
       { name: "Responsive Design", level: 5 },
-      { name: "Excel", level: 4 },
+      { name: "Excel", level: 4.5 },
     ],
   },
 ];
