@@ -4,13 +4,14 @@ export default function Hero() {
   return (
     <section
       className="relative w-full min-h-screen flex items-center 
-bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 
-pt-24 overflow-hidden text-white"
-    >
+      bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 
+      pt-24 overflow-hidden text-white" >
       {/* ===== Animated Gradient Bubbles ===== */}
       <div className="absolute w-96 h-96 bg-purple-500 rounded-full blur-3xl opacity-20 top-20 -left-20 animate-pulse"></div>
       <div className="absolute w-[500px] h-[500px] bg-indigo-500 rounded-full blur-3xl opacity-20 bottom-0 right-0 animate-pulse"></div>
-      <div className="absolute w-72 h-72 bg-pink-500 rounded-full blur-3xl opacity-10 top-1/2 left-1/3"></div>
+      <div className="absolute w-72 h-72 bg-pink-500 rounded-full blur-3xl opacity-10 top-1/2 left-1/3">
+        
+      </div>
 
       {/* ===== Glass Overlay Layer ===== */}
       <div className="absolute inset-0 backdrop-blur-[120px] bg-white/5"></div>
@@ -82,7 +83,7 @@ pt-24 overflow-hidden text-white"
                           rounded-3xl p-3 shadow-2xl"
               >
                 <img
-                  src="/profile.jpg"
+                  src="/profile.jpeg"
                   alt="Mohammad Samir"
                   className="w-72 md:w-96 rounded-2xl object-cover"
                 />
