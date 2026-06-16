@@ -3,11 +3,9 @@ import { Circle } from "lucide-react";
 
 const education = [
   {
-    title:
-      "Bachelor of Technology (B.Tech) in Computer Science Engineering",
+    title: "Bachelor of Technology (B.Tech) in Computer Science Engineering",
     year: "2018 – 2022",
-    description:
-      "Pailan College of Management & Technology (MAKAUT), Kolkata",
+    description: "Pailan College of Management & Technology (MAKAUT), Kolkata",
   },
   {
     title: "Higher Secondary (WBCHSE)",
@@ -21,6 +19,7 @@ const education = [
     description: "Modern Arya Parishad, Kolkata",
   },
 ];
+
 const skillCategories = [
   {
     category: "Frontend",
@@ -34,7 +33,7 @@ const skillCategories = [
       { name: "Tailwind CSS", level: 5 },
       { name: "Bootstrap", level: 4 },
       { name: "Shadcn", level: 4 },
-        { name: "Material UI", level: 3.5 },
+      { name: "Material UI", level: 3.5 },
     ],
   },
   {
@@ -44,7 +43,6 @@ const skillCategories = [
       { name: "Node.js", level: 4 },
       { name: "MongoDb", level: 4 },
       { name: "REST API", level: 4 },
-      { name: "PHP", level: 3 },
       { name: "MySQL", level: 3 },
     ],
   },
@@ -55,6 +53,7 @@ const skillCategories = [
       { name: "VS Code", level: 5 },
       { name: "Figma", level: 4 },
       { name: "Responsive Design", level: 5 },
+      { name: "Excel", level: 4 },
     ],
   },
 ];
